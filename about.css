@@ -1,8 +1,19 @@
+.about-section h2 {
+  text-transform: capitalize;
+  font-size: 60px;
+  color: #e4e3d35f;
+  font-family: "BioRhyme", serif;
+  margin-top: 3rem;
+  line-height: 5.7rem;
+  font-weight: 600;
+  text-align: center;
+}
+
 .about {
   /* border: 2px solid red; */
   width: 60%;
   height: 70vh;
-  margin: 8rem auto;
+  margin: 2rem auto;
   display: grid;
   grid-template-columns: 1.5fr 1fr 1.5fr;
 }

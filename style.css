@@ -25,7 +25,6 @@ body {
   background-color: black !important;
 }
 
-
 /* Media Query for Experience Section - 760px and below */
 @media screen and (max-width: 760px) {
   .experience {
@@ -50,7 +49,7 @@ body {
     z-index: 100;
   }
 
-  .experience-right, 
+  .experience-right,
   .experience-left {
     width: 100%;
   }
@@ -149,7 +148,6 @@ body {
     max-height: 150px;
   }
 }
-
 
 /* Media Query for tablets and mobile devices */
 @media screen and (max-width: 760px) {
@@ -579,7 +577,7 @@ body {
   .header-writeup {
     text-align: center;
     color: white;
-    margin-top: 2rem;
+    margin-top: 5rem !important;
     position: relative;
     padding: 1rem;
   }
@@ -751,12 +749,13 @@ body {
   }
 }
 
-
 @media (max-width: 760px) {
   .navbar {
-    padding: 0.5rem;
+    /* padding: 0.5rem; */
     flex-direction: column;
     align-items: flex-start;
+    /* border: 2px solid white; */
+    height: 10vh;
   }
 
   .collapse {
@@ -776,8 +775,13 @@ body {
   .navbar-nav {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: flex-end;
     width: 100%;
+    /* border: 2px solid white; */
+    background: #337357;
+    padding: 1rem;
+    border-radius: 30px;
   }
 
   .navbar-nav a {
@@ -791,7 +795,6 @@ body {
     width: fit-content;
   }
 }
-
 
 @media (max-width: 760px) {
   .services {
@@ -836,11 +839,18 @@ body {
     width: 100%;
     height: auto;
   }
+  
+  .left ul{
+    display: none !important;
+  }
+
+  
 
   dotlottie-player {
-    width: 60% !important;
+    /* width: 60% !important;
     left: 20% !important;
-    height: 35vh !important;
+    height: 35vh !important; */
+    display: none !important;
   }
 }
 
@@ -921,7 +931,7 @@ body {
   }
 
   .tools-writeup img {
-    width: 100%;
+    width: 30%;
     height: auto;
     margin-top: 1rem;
   }
