@@ -1,0 +1,85 @@
+.services {
+  border: 2px solid black;
+  background-color: whitesmoke;
+  border-radius: 30px;
+}
+
+.services .content:nth-child(1){
+  background-color: pink;
+}
+
+.services .content:nth-child(2){
+  background-color: grey;
+}
+
+.services .content:nth-child(3){
+  background-color: burlywood;
+}
+
+.content {
+  /* border: 2px solid blue; */
+  padding: 1rem;
+  display: flex;
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+}
+
+.content .left {
+  width: 60%;
+  /* border: 2px solid red; */
+  text-align: left;
+  padding: 3rem;
+  font-family: "Antic Didone", serif;
+  font-weight: 500;
+}
+
+.content .left p:nth-child(1) {
+  /* border: 2px solid red; */
+  text-transform: capitalize;
+  font-size: 45px;
+  font-family: "BioRhyme", serif;
+  font-weight: 500;
+}
+
+.content .left p:nth-child(2) {
+  /* border: 2px solid gold; */
+  text-transform: capitalize;
+  font-weight: 800;
+}
+
+.left .text {
+  /* border: 2px solid; */
+  width: 75%;
+}
+
+.left button {
+  padding: 0.6rem;
+  width: 30%;
+}
+
+.content .right {
+  /* border: 2px solid blue; */
+  width: 60%;
+  position: relative;
+  background-image: url(images/mybeautifulgirlpage.png);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid;
+  border-radius: 20px;
+}
+
+.content .right img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  border: 3px solid;
+}
+
+dotlottie-player {
+  width: 33% !important;
+  position: absolute !important;
+  top: 50% !important;
+  left: -10% !important;
+  height: 55vh !important;
+  opacity: 0.8;
+}

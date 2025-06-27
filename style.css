@@ -1,0 +1,26 @@
+@import url(https://fonts.bunny.net/css?family=biorhyme:300);
+@import url(https://fonts.bunny.net/css?family=amita:400);
+@import url(https://fonts.bunny.net/css?family=almendra:400i);
+@import url(https://fonts.bunny.net/css?family=barriecito:400);
+@import url(https://fonts.bunny.net/css?family=antic-didone:400);
+
+@import url(header.css);
+@import url(about.css);
+@import url(services.css);
+@import url(testimonial.css);
+@import url(captivity.css);
+@import url(tools.css);
+@import url(experience.css);
+@import url(footer.css);
+@import url(nav.css);
+@import url(faq.css);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black !important;
+}

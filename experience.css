@@ -1,0 +1,54 @@
+.experience {
+  margin-top: 5rem;
+}
+
+.experience h2 {
+  text-transform: capitalize;
+  font-size: 100px;
+  color: #e4e3d35f;
+  font-family: "BioRhyme", serif;
+  margin-bottom: 5rem;
+  padding: 1rem;
+  line-height: 5.7rem;
+  font-weight: 600;
+}
+
+.experience-container {
+  /* border: 2px solid red; */
+  width: 95%;
+  margin: 0rem auto;
+  border-radius: 20px;
+  background: linear-gradient(to right, #e4e3d35e, #337357, whitesmoke);
+  display: flex;
+  z-index: 100;
+}
+
+.experience-right,
+.experience-left {
+  width: 50%;
+  /* border: 2px solid red; */
+}
+
+.experience-left {
+  padding: 3rem;
+  line-height: 1rem;
+  text-transform: capitalize;
+  color: white;
+  margin-top: 6rem;
+  font-family: "Antic Didone", serif;
+}
+
+.experience-left ul li {
+  margin-bottom: 2rem;
+}
+
+.experience-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 0.5rem;
+  padding: 1rem;
+}
+
+.experience-right img {
+  border-radius: 30px;
+}

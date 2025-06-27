@@ -1,0 +1,101 @@
+footer {
+  /* border: 2px solid red; */
+  margin: 0rem auto;
+  color: white;
+  width: 60%;
+  text-align: center;
+}
+
+.Footer-head {
+  position: relative;
+  /* border: 2px solid green; */
+  height: 10vh;
+  width: 100%;
+}
+
+.Footer-first img {
+  width: 6rem;
+  height: 15vh;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  z-index: 4;
+  left: 45%;
+}
+
+.Footer-first .line {
+  width: 65%;
+  height: 1.3vh;
+  background: linear-gradient(to right, #e4e3d3, #337357, #0000ff82, #2e2d4d);
+  border-radius: 70%;
+  box-shadow: 0px 1px 15px 1px rgba(255, 255, 255, 0.21);
+  margin: 0 auto;
+  position: absolute;
+  top: 55%;
+  left: 20%;
+}
+
+.Footer-first p {
+  margin-top: 3rem;
+  font-size: 13px;
+}
+
+.footer-bold {
+  font-size: 30px;
+  margin-top: 1rem;
+  font-family: "Amita", handwriting;
+}
+
+.footer-button-only {
+  margin-top: 1rem;
+}
+
+.footer-button-only button {
+  border: none;
+  font-weight: 600;
+  font-family: "Amita", handwriting;
+  background: linear-gradient(to right, #337357, #3373575d);
+  color: white;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  text-transform: capitalize;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
+.footer-button-only button:hover {
+  background: linear-gradient(to right, #3373575d, #337357);
+  transform: scale(1.05);
+}
+
+.footer-socials {
+  margin-top: 1rem;
+}
+
+.footer-socials a i {
+  margin: 1rem;
+  width: 3rem;
+  font-size: 40px;
+  color: white;
+}
+
+.footer-socials a i:hover {
+  transition: 1s;
+  transform: translateY(-10px);
+}
+
+.footer-writeup {
+  border: 2px solid #337357;
+  margin-top: 2rem;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.footer-writeup p {
+  margin-top: 2rem;
+  font-family: "Amita", handwriting;
+  text-transform: capitalize;
+}

@@ -1,0 +1,54 @@
+.faq {
+  font-family: Arial, sans-serif;
+  margin-top: 6rem;
+   /* background: linear-gradient(90deg,#e4e3d35f, blue); */
+  /* -webkit-text-fill-color: transparent; */
+  /* -webkit-background-clip: text; */
+ 
+}
+
+.faq h6 {
+  text-transform: capitalize;
+  font-size: 90px;
+  color: #e4e3d35f;
+  font-family: "BioRhyme", serif;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  line-height: 5.7rem;
+  font-weight: 600;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #ddd;
+  background-color: whitesmoke;
+}
+
+.accordion-question {
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 2rem;
+  color: black;
+}
+
+.accordion-question:hover {
+  background-color: rgba(128, 128, 128, 0.269);
+}
+
+.accordion-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.accordion-answer p{
+    padding: 1rem;
+}
+
+.accordion-item.active .accordion-answer {
+  max-height: 200px; /* enough for the content */
+}
