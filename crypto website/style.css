@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: pink;
+}
+
+.hero{
+    border: 2px solid;
+    height: 90vh;
+}
+
+.design{
+    border: 2px solid red;
+    height: 50vh;
+    width: 50%;
+    margin-top: 1rem;
+    background-color: blue;
+    background-position: center;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    background-image: url(../images/img.1.jpg);
+}

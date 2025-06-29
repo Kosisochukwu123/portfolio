@@ -25,131 +25,14 @@ body {
   background-color: black !important;
 }
 
-/* Media Query for Experience Section - 760px and below */
-@media screen and (max-width: 760px) {
-  .experience {
-    margin-top: 3rem;
-  }
-
-  .experience h2 {
-    font-size: 60px;
-    line-height: 3.5rem;
-    margin-bottom: 3rem;
-    padding: 0.5rem;
-    text-align: center;
-  }
-
-  .experience-container {
-    width: 95%;
-    margin: 0 auto;
-    border-radius: 15px;
-    background: linear-gradient(to bottom, #e4e3d35e, #337357, whitesmoke);
-    display: flex;
-    flex-direction: column;
-    z-index: 100;
-  }
-
-  .experience-right,
-  .experience-left {
-    width: 100%;
-  }
-
-  .experience-left {
-    padding: 2rem 1.5rem;
-    line-height: 1.4rem;
-    text-transform: capitalize;
-    color: white;
-    margin-top: 0;
-    font-family: "Antic Didone", serif;
-    order: 1;
-  }
-
-  .experience-left ul li {
-    margin-bottom: 1.5rem;
-    font-size: 0.9rem;
-  }
-
-  .experience-right {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0.5rem;
-    padding: 1rem;
-    order: 2;
-  }
-
-  .experience-right img {
-    border-radius: 20px;
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
+.text-green{
+  color:  #337357;
 }
 
-/* For smaller mobile devices - 480px and below */
-@media screen and (max-width: 480px) {
-  .experience {
-    margin-top: 2rem;
-  }
 
-  .experience h2 {
-    font-size: 45px;
-    line-height: 2.8rem;
-    margin-bottom: 2rem;
-    padding: 0.5rem;
-  }
 
-  .experience-container {
-    width: 98%;
-    border-radius: 10px;
-  }
 
-  .experience-left {
-    padding: 1.5rem 1rem;
-    line-height: 1.3rem;
-  }
-
-  .experience-left ul li {
-    margin-bottom: 1rem;
-    font-size: 0.85rem;
-  }
-
-  .experience-right {
-    grid-template-columns: 1fr; /* Single column on very small screens */
-    gap: 0.8rem;
-    padding: 1rem;
-  }
-
-  .experience-right img {
-    border-radius: 15px;
-    max-height: 200px;
-  }
-}
-
-/* For very small devices - 320px and below */
-@media screen and (max-width: 320px) {
-  .experience h2 {
-    font-size: 35px;
-    line-height: 2.2rem;
-  }
-
-  .experience-left {
-    padding: 1rem;
-  }
-
-  .experience-left ul li {
-    font-size: 0.8rem;
-  }
-
-  .experience-right {
-    padding: 0.5rem;
-  }
-
-  .experience-right img {
-    max-height: 150px;
-  }
-}
-
-/* Media Query for tablets and mobile devices */
+/* Media Query for about tablets and mobile devices */
 @media screen and (max-width: 760px) {
   .about {
     width: 90%;
@@ -240,7 +123,7 @@ body {
   .faq h6 {
     text-transform: capitalize;
     font-size: 60px;
-    color: #e4e3d35f;
+    color: white;
     font-family: "BioRhyme", serif;
     margin-bottom: 1.5rem;
     padding: 0.5rem;
@@ -569,185 +452,41 @@ body {
 /* Media Query for Header Section - 760px and below */
 @media screen and (max-width: 760px) {
   header {
-    height: 70vh;
-    margin-bottom: 1rem;
-    overflow: hidden;
+    height: 60vh; /* Reduce header height for smaller screens */
   }
+
 
   .header-writeup {
-    text-align: center;
-    color: white;
-    margin-top: 5rem !important;
-    position: relative;
-    padding: 1rem;
-  }
-
-  .header-video video {
-    width: 100%;
-    height: 70vh;
-    position: absolute;
-    opacity: 0.4;
-    object-fit: cover;
+    margin-top: 7rem;
+    padding: 0.3rem;
   }
 
   #first {
-    font-family: "BioRhyme", serif;
-    text-transform: capitalize;
-    font-weight: 600;
-    line-height: 2.8rem;
-    font-size: 40px;
-    width: 85%;
-    margin: 0 auto;
-  }
-
-  #second {
-    font-size: 1.2rem;
-    font-family: "Almendra", serif;
-    text-align: center;
-    width: 80%;
-    margin: 1rem auto 0;
-    line-height: 1.4;
-  }
-
-  .button-header {
-    gap: 0.8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
-    flex-wrap: wrap;
-    padding: 0 1rem;
-  }
-
-  .button-header button {
-    background: linear-gradient(to right, #337357, #3373575d);
-    color: white;
-    padding: 0.6rem 1.2rem;
-    border-radius: 5px;
-    border: 1px solid white;
-    font-size: 1rem;
-    cursor: pointer;
-    text-transform: capitalize;
-    backdrop-filter: blur(10px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    transition: all 0.3s ease;
-    min-width: 120px;
-  }
-
-  .button-header button:hover {
-    background: linear-gradient(to right, #3373575d, #337357);
-    transform: scale(1.05);
-  }
-}
-
-/* For smaller mobile devices - 480px and below */
-@media screen and (max-width: 480px) {
-  header {
-    height: 60vh;
-  }
-
-  .header-writeup {
-    margin-top: 1.5rem;
-    padding: 0.8rem;
-  }
-
-  .header-video video {
-    height: 60vh;
-  }
-
-  #first {
-    line-height: 2.2rem;
     font-size: 32px;
-    width: 95%;
+    line-height: 2.5rem;
+    width: 90%; /* Increase width for better fit */
   }
 
   #second {
     font-size: 1rem;
-    width: 90%;
-    margin: 0.8rem auto 0;
-  }
-
-  .button-header {
-    gap: 0.6rem;
-    margin-top: 1.5rem;
-    flex-direction: column;
-  }
-
-  .button-header button {
-    padding: 0.7rem 1.5rem;
-    font-size: 0.9rem;
-    width: 180px;
-    max-width: 90%;
-  }
-}
-
-/* For very small devices - 320px and below */
-@media screen and (max-width: 320px) {
-  header {
-    height: 55vh;
-  }
-
-  .header-writeup {
-    margin-top: 1rem;
-    padding: 0.5rem;
-  }
-
-  .header-video video {
-    height: 55vh;
-  }
-
-  #first {
-    line-height: 1.8rem;
-    font-size: 26px;
-    width: 98%;
-  }
-
-  #second {
-    font-size: 0.9rem;
-    width: 95%;
-    margin: 0.6rem auto 0;
-  }
-
-  .button-header {
-    margin-top: 1.2rem;
-    gap: 0.5rem;
-  }
-
-  .button-header button {
-    padding: 0.6rem 1.2rem;
-    font-size: 0.85rem;
-    width: 160px;
-  }
-}
-
-/* Landscape orientation for mobile devices */
-@media screen and (max-width: 760px) and (orientation: landscape) {
-  header {
-    height: 90vh;
-  }
-
-  .header-video video {
-    height: 90vh;
-  }
-
-  .header-writeup {
-    margin-top: 1rem;
-  }
-
-  #first {
-    font-size: 35px;
-    line-height: 2.4rem;
-  }
-
-  #second {
-    font-size: 1.1rem;
+    width: 85%;
   }
 
   .button-header {
     margin-top: 1.5rem;
-    flex-direction: row;
+  }
+
+  .button-header button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    height: auto;
+    width: 70%; /* Make button wider for touch screens */
+    justify-content: center;
   }
 }
+
+
+
 
 @media (max-width: 760px) {
   .navbar {
@@ -755,7 +494,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     /* border: 2px solid white; */
-    height: 10vh;
+    height: 7vh;
   }
 
   .collapse {
@@ -766,10 +505,12 @@ body {
 
   .navbar-brand {
     font-size: 1.5rem;
+    /* border: 2px solid; */
+    width: 49%;
   }
 
   .navbar-brand img {
-    width: 10%;
+    width: 20%;
   }
 
   .navbar-nav {
@@ -796,61 +537,35 @@ body {
   }
 }
 
-@media (max-width: 760px) {
+@media screen and (max-width: 760px) {
   .services {
-    border-radius: 15px;
-    padding: 1rem;
+    grid-template-columns: 1fr; /* Stack items vertically */
+    padding: 1rem 0.5rem;
+    gap: 1rem;
   }
 
   .content {
-    flex-direction: column;
-    margin-top: 2rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .content .left,
-  .content .right {
-    width: 100%;
     padding: 1rem;
-    text-align: center;
+    gap: 0.5rem;
   }
 
-  .content .left p:nth-child(1) {
-    font-size: 30px;
+  .content-image img {
+    height: 30vh; /* Slightly smaller image height */
   }
 
-  .content .left .text {
-    width: 100%;
-    margin: 0 auto;
+  .content-text {
+    font-size: 24px;
   }
 
-  .left button {
-    width: 80%;
-    margin-top: 1rem;
+  .content-list ul {
+    flex-direction: column; /* Stack list items */
+    gap: 0.5rem;
+    font-size: 14px;
   }
 
-  .content .right {
-    height: 250px;
-    background-size: cover;
-    background-position: center;
-  }
-
-  .content .right img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .left ul{
-    display: none !important;
-  }
-
-  
-
-  dotlottie-player {
-    /* width: 60% !important;
-    left: 20% !important;
-    height: 35vh !important; */
-    display: none !important;
+  .content-button button {
+    width: 70%; /* Make button more tappable */
+    font-size: 16px;
   }
 }
 

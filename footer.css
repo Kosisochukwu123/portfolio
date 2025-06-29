@@ -1,6 +1,7 @@
 footer {
   /* border: 2px solid red; */
   margin: 0rem auto;
+  /* color: white; */
   color: white;
   width: 60%;
   text-align: center;
@@ -54,20 +55,22 @@ footer {
   border: none;
   font-weight: 600;
   font-family: "Amita", handwriting;
-  background: linear-gradient(to right, #337357, #3373575d);
-  color: white;
+  /* background: linear-gradient(to right, #337357, #3373575d); */
+  border: 3px solid #337357;
+  box-shadow: 1px 1px 15px 7px #3373575d;
+  color: black;
+  border-radius: 8px;
   padding: 0.5rem 1.5rem;
   font-size: 1rem;
   cursor: pointer;
   text-transform: capitalize;
-  backdrop-filter: blur(10px);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   transition: all 0.3s ease;
 }
 
 .footer-button-only button:hover {
   background: linear-gradient(to right, #3373575d, #337357);
   transform: scale(1.05);
+  color: white;
 }
 
 .footer-socials {

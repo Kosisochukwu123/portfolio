@@ -1,7 +1,7 @@
 .about-section h2 {
   text-transform: capitalize;
-  font-size: 60px;
-  color: #e4e3d35f;
+  font-size: 70px;
+color: whitesmoke;
   font-family: "BioRhyme", serif;
   margin-top: 3rem;
   line-height: 5.7rem;
@@ -11,11 +11,13 @@
 
 .about {
   /* border: 2px solid red; */
+  background: radial-gradient( black,rgba(76, 76, 227, 0.087),black);
   width: 60%;
   height: 70vh;
   margin: 2rem auto;
   display: grid;
   grid-template-columns: 1.5fr 1fr 1.5fr;
+  padding: 0.5rem;
 }
 
 .about-image {
@@ -56,5 +58,6 @@
   /* border: 2px solid red; */
   text-align: left;
   margin-top: 1rem;
-  font-family: "BioRhyme", serif;
+  font-family: "Antic Didone", serif;
+  backdrop-filter: blur(10px);
 }
