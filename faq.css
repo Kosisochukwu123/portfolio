@@ -18,7 +18,7 @@
 .accordion-item {
   border-bottom: 6px solid #ddd;
   /* background-color: whitesmoke; */
-  background: linear-gradient(#337357);
+  background: linear-gradient(#337357) !important;
   width: 95%;
   margin: 0 auto;
 }
@@ -32,7 +32,7 @@
   font-weight: bold;
   cursor: pointer;
   padding: 2rem;
-  color: white;
+  color: white !important;
   font-family: "Antic Didone", serif;
   /* background: linear-gradient(to right, #337357, #3373575d); */
 }
@@ -45,7 +45,7 @@
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease;
-  color: white;
+  color: white !important;
   font-family: "Antic Didone", serif;
 }
 

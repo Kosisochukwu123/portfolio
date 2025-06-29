@@ -133,16 +133,19 @@ body {
 
   .accordion-item {
     width: 90%;
+    background: linear-gradient(#337357)
   }
 
   .accordion-question {
     font-size: 1rem;
     padding: 1rem;
+    color: white;
   }
 
   .accordion-answer p {
     padding: 0.8rem;
     font-size: 0.95rem;
+    color: white;
   }
 
   .accordion-item.active .accordion-answer {
@@ -366,7 +369,7 @@ body {
 /* Media Query for Header Section - 760px and below */
 @media screen and (max-width: 760px) {
   header {
-    height: 50vh; /* Reduce header height for smaller screens */
+    height: 60vh; /* Reduce header height for smaller screens */
   }
 
   .header-writeup {
@@ -480,7 +483,7 @@ body {
   }
 }
 
-@media (max-width: 760px) {
+@media screen and (max-width: 760px) {
   .testimonial {
     padding: 1rem;
     margin-top: 2rem;
