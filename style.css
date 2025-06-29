@@ -25,12 +25,9 @@ body {
   background-color: black !important;
 }
 
-.text-green{
-  color:  #337357;
+.text-green {
+  color: #337357;
 }
-
-
-
 
 /* Media Query for about tablets and mobile devices */
 @media screen and (max-width: 760px) {
@@ -48,6 +45,13 @@ body {
     width: 100%;
     height: 250px; /* Fixed height for mobile */
     order: 1; /* Image first */
+  }
+
+  .about-section h2 {
+    font-size: 40px !important;
+    text-align: left;
+    margin-left: 2rem;
+    margin-bottom: -2.5rem;
   }
 
   .about img {
@@ -122,19 +126,18 @@ body {
 
   .faq h6 {
     text-transform: capitalize;
-    font-size: 60px;
+    font-size: 40px !important;
     color: white;
     font-family: "BioRhyme", serif;
     margin-bottom: 1.5rem;
     padding: 0.5rem;
     line-height: 3.5rem;
     font-weight: 600;
-    text-align: center;
+    text-align: left;
   }
 
   .accordion-item {
     border-bottom: 1px solid #ddd;
-    background-color: whitesmoke;
     margin-bottom: 0.5rem;
     border-radius: 8px;
   }
@@ -293,19 +296,18 @@ body {
   }
 
   .footer-button-only button {
-    border: none;
     font-weight: 600;
     font-family: "Amita", handwriting;
-    background: linear-gradient(to right, #337357, #3373575d);
-    color: white;
+    background-color: whitesmoke;
     padding: 0.6rem 1.2rem;
     font-size: 0.9rem;
     cursor: pointer;
     text-transform: capitalize;
-    backdrop-filter: blur(10px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     transition: all 0.3s ease;
     border-radius: 5px;
+    border: 3px solid #337357;
+    box-shadow: 1px 1px 15px 7px #3373575d;
+    color: black;
   }
 
   .footer-button-only button:hover {
@@ -452,19 +454,19 @@ body {
 /* Media Query for Header Section - 760px and below */
 @media screen and (max-width: 760px) {
   header {
-    height: 60vh; /* Reduce header height for smaller screens */
+    height: 50vh; /* Reduce header height for smaller screens */
   }
 
-
   .header-writeup {
-    margin-top: 7rem;
+    margin-top: 4rem;
     padding: 0.3rem;
   }
 
   #first {
-    font-size: 32px;
-    line-height: 2.5rem;
+    font-size: 39px;
+    line-height: 3rem;
     width: 90%; /* Increase width for better fit */
+    font-weight: 900;
   }
 
   #second {
@@ -484,9 +486,6 @@ body {
     justify-content: center;
   }
 }
-
-
-
 
 @media (max-width: 760px) {
   .navbar {
@@ -577,9 +576,8 @@ body {
 
   .testimonial h2 {
     font-size: 36px;
-    line-height: 3rem;
-    margin-bottom: 2rem;
-    text-align: center;
+    text-align: left;
+    margin-bottom: -1rem;
   }
 
   .textimonial-container {
@@ -604,12 +602,12 @@ body {
   }
 
   .testimonial-bottom p {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.4;
   }
 
   .testimonial-bottom p:nth-child(2) {
-    font-size: 13px;
+    font-size: 17px;
   }
 }
 
@@ -619,10 +617,10 @@ body {
   }
 
   .tools h2 {
-    font-size: 36px;
+    font-size: 29px;
     line-height: 3rem;
     padding: 1rem;
-    text-align: center;
+    text-align: left;
   }
 
   .tools-container {
@@ -638,11 +636,11 @@ body {
   }
 
   .tools-writeup p:nth-child(1) {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .tools-writeup p:nth-child(2) {
-    font-size: 13px;
+    font-size: 18px;
   }
 
   .tools-writeup img {
