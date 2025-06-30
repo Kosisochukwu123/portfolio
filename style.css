@@ -133,19 +133,19 @@ body {
 
   .accordion-item {
     width: 90%;
-    background: linear-gradient(#337357)
+    background: linear-gradient(#337357) !important;
   }
 
   .accordion-question {
     font-size: 1rem;
     padding: 1rem;
-    color: white;
+    color: black;
   }
 
   .accordion-answer p {
     padding: 0.8rem;
     font-size: 0.95rem;
-    color: white;
+    color: black;
   }
 
   .accordion-item.active .accordion-answer {
@@ -369,7 +369,7 @@ body {
 /* Media Query for Header Section - 760px and below */
 @media screen and (max-width: 760px) {
   header {
-    height: 60vh; /* Reduce header height for smaller screens */
+    height: 70vh; /* Reduce header height for smaller screens */
   }
 
   .header-writeup {
