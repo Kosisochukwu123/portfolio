@@ -30,15 +30,6 @@ body {
   color: #337357;
 }
 
-
-
-
-
-
-
-
-
-
 /* Media Query for about tablets and mobile devices */
 @media screen and (max-width: 760px) {
   .about {
@@ -143,19 +134,25 @@ body {
 
   .accordion-item {
     width: 90%;
-    /* background: linear-gradient(#337357) !important; */
   }
 
   .accordion-question {
     font-size: 1rem;
     padding: 1rem;
-    color: black;
+    /* color: black; */
+    background-color: black !important;
+    /* background: linear-gradient(#337357) !important; */
+  }
+
+  .accordion-question button {
+    color: red !important;
   }
 
   .accordion-answer p {
     padding: 0.8rem;
     font-size: 0.95rem;
     color: black;
+    background-color: white !important;
   }
 
   .accordion-item.active .accordion-answer {
