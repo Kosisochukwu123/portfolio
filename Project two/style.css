@@ -1,0 +1,220 @@
+@import url(https://fonts.bunny.net/css?family=adamina:400);
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+  /* border: 2px solid white; */
+  /* height: 80vh; */
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.left-header {
+  width: 100%;
+  background-color: rgb(86, 84, 84);
+  height: 50vh;
+  position: relative;
+}
+
+.left-header .writeup p {
+  transform: rotate(-90deg);
+  position: absolute;
+  color: white;
+  font-size: 12px;
+  top: 51%;
+  left: -4%;
+  font-family: 'Adamina', serif;
+}
+
+.left-header .heading {
+  /* border: 2px solid; */
+  width: 6%;
+  position: absolute;
+  left: 3%;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.number pre {
+  /* border: 2px solid; */
+  width: fit-content;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  left: 39%;
+  top: 2%;
+}
+
+.left-header .small {
+  /* border: 2px solid; */
+  width: fit-content;
+  position: absolute;
+  top: 60%;
+  color: white;
+  font-size: large;
+  left: 83%;
+  font-family: 'Adamina', serif;
+}
+
+.left-header .big {
+  font-size: 80px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: white;
+  position: absolute;
+  top: 63%;
+  left: 65%;
+  width: fit-content;
+}
+
+.left-image {
+  /* border: 2px solid; */
+  width: fit-content;
+  position: absolute;
+  top: 30%;
+  z-index: 1;
+  left: 15%;
+}
+
+
+.things{
+    /* border: 2px solid; */
+    width: fit-content;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    font-size: 20px;
+    top: 5%;
+    left: 95%;
+}
+
+.things i{
+    color: white;
+}
+
+.cone{
+    width: 30%;
+    height: 20vh;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 1px 1px 20px 1px white;
+    position: absolute;
+    left: 35%;
+    top: 60%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border: none;
+
+}
+
+
+
+
+.right-header {
+  width: 100%;
+  height: 50vh;
+  background-color: goldenrod;
+  position: relative;
+  overflow: hidden;
+}
+
+.content-right {
+  /* border: 2px solid; */
+  display: flex;
+  width: fit-content;
+  position: absolute;
+  top: 66%;
+  padding: 1.5rem;
+  background-color: rgb(86, 84, 84);
+  left: 20%;
+}
+
+.content-right div {
+  border: 1px solid;
+  padding: 0rem 2rem 0rem 2rem;
+  color: white;
+  border-top: none;
+  border-bottom: none;
+  display: flex;
+  align-items: center;
+}
+
+.writings {
+  position: absolute;
+  width: 23%;
+  top: 2rem;
+  left: 74%;
+  text-align: right;
+  font-size: 15px;
+  line-height: 1.3rem;
+ font-family: 'Adamina', serif;
+  font-weight: 600;
+}
+
+.writings button {
+  padding: 0.5rem;
+  background-color: rgb(86, 84, 84);
+  border: none;
+  color: white;
+  width: 40%;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.socials {
+  /* border: 2px solid; */
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 1rem;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  left: 2.6%;
+  top: 10%;
+}
+
+.socials a {
+  color: white;
+}
+
+.share {
+  width: fit-content;
+  position: absolute;
+  left: 2.9%;
+  top: 80%;
+  font-size: 25px;
+}
+
+.share i {
+  color: white;
+}
+
+.arrows{
+    /* border: 2px solid; */
+    width: 65%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    /* z-index: 2; */
+    left: 15%;
+}
+
+.arrows i{
+    border: 2px solid;
+    border-radius: 50%;
+    padding: 0.5rem;
+    color: white;
+    background-color: black;
+    border: none;
+}

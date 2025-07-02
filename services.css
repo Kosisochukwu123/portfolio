@@ -1,7 +1,8 @@
 .services {
   /* border: 2px solid white; */
-  /* background-color: whitesmoke; */
-  border-radius: 30px;
+  background-image: url(images/blackbg.img.jpg);
+  background-position: center;
+  background-size: cover;
   padding: 1rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -10,31 +11,43 @@
 
 .content {
   /* border: 2px solid blue; */
-  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  padding: 1.5rem;
   display: flex;
   flex-direction: column;
   gap: 0.7rem;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(10px) brightness(0.95); /* for Safari */
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.694);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  border: 1px solid white;
 }
 
+
+
 .content:hover {
-  background-color: rgba(244, 229, 229, 0.968);
+  background-color: rgba(244, 229, 229, 0.24);
 }
 
 .content-image {
   /* border: 2px solid; */
   padding-bottom: 1rem;
-  background-color: lightslategray;
+  background-color: rgb(41, 34, 34);
   padding-left: 0.7rem;
   padding-top: 1rem;
   padding-right: 0.7rem;
   border-radius: 10px;
 }
 
+.pot{
+  background-color: rgba(0, 0, 128, 0.605);
+}
+
+.stove{
+  background-color: #14532d;
+}
+
 .content-image img {
-  /* border: 2px solid; */
+  border: 5px solid;
   width: 100%;
   height: 40vh;
   border-radius: 15px;
@@ -66,6 +79,7 @@
   font-family: "Aladin", handwriting;
   text-transform: capitalize;
   font-size: 30px;
+  color: white;
 }
 .content-button {
   /* border: 2px solid; */

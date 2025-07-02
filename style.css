@@ -4,7 +4,8 @@
 @import url(https://fonts.bunny.net/css?family=barriecito:400);
 @import url(https://fonts.bunny.net/css?family=antic-didone:400);
 
-@import url(header.css);
+/* @import url(header.css); */
+@import url(headerr.css);
 @import url(about.css);
 @import url(services.css);
 @import url(testimonial.css);
@@ -28,6 +29,15 @@ body {
 .text-green {
   color: #337357;
 }
+
+
+
+
+
+
+
+
+
 
 /* Media Query for about tablets and mobile devices */
 @media screen and (max-width: 760px) {
@@ -133,7 +143,7 @@ body {
 
   .accordion-item {
     width: 90%;
-    background: linear-gradient(#337357) !important;
+    /* background: linear-gradient(#337357) !important; */
   }
 
   .accordion-question {
@@ -369,11 +379,11 @@ body {
 /* Media Query for Header Section - 760px and below */
 @media screen and (max-width: 760px) {
   header {
-    height: 70vh; /* Reduce header height for smaller screens */
+    height: 90vh; /* Reduce header height for smaller screens */
   }
 
   .header-writeup {
-    margin-top: 4rem;
+    margin-top: 6rem;
     padding: 0.3rem;
   }
 
@@ -390,7 +400,7 @@ body {
   }
 
   .button-header {
-    margin-top: 1.5rem;
+    margin-top: 2.5rem;
   }
 
   .button-header button {
